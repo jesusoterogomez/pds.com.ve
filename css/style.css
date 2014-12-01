@@ -1,0 +1,1157 @@
+
+.srvbtn{display:none;  }
+
+
+#work{
+  position: relative;
+  margin: 80px auto;
+  
+
+}
+#work .overlay{
+  display: none;
+  opacity: 0;
+}
+#work ul{
+  position: relative;
+  overflow: auto;
+  list-style: none;
+  width: 90%;
+  max-width: 350px;
+  margin: 0 auto;
+}
+#work ul li{
+
+  float: left;
+  margin:0;
+  position: relative;
+  padding: 0px;
+  width: 100%;
+}
+.work-img{width: 100%;}
+
+
+
+#web-overlay{
+    display: none;
+}
+
+
+ 
+.lang-en{
+    display: none;
+}
+.content{
+    position: relative;
+    max-width: 1050px;
+    margin: 0 auto;
+    overflow: auto;
+
+}
+
+#top{
+    font: 12pt 'Marvel', sans-serif; color:#fff;
+    position: absolute;
+    right:5%;
+    top:0;
+    background: #0097e9;
+    padding: 6px 4px;
+    color:#FFF;
+    border-radius: 0 0 3px 3px;
+}
+#lang-es{
+border-bottom:2px #fff solid;
+}
+
+#top a{font: 12pt 'Marvel', sans-serif; color:#fff;
+text-decoration: none;
+padding-left: 7px;
+padding-right:7px;
+ -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+   transition: all 0.1s ease;
+}
+body{
+    background: #F0F0F0;
+    background: url(../img/bg.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 5px solid #0097e9;
+}
+#pitch{
+    max-width: 1050px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* ROLL LINKS */
+.roll-link {
+    display: inline-block;
+    overflow: hidden;
+
+    vertical-align: top;
+
+    -webkit-perspective: 600px;
+       -moz-perspective: 600px;
+       -ms-perspective: 600px;
+       perspective: 600px;
+
+    -webkit-perspective-origin: 50% 50%;
+       -moz-perspective-origin: 50% 50%;
+       -ms-perspective-origin: 50% 50%;
+       perspective-origin: 50% 50%;
+       
+}
+
+.roll-link:hover {text-decoration:none;}
+
+.roll-link span {
+    display: block;
+    position: relative;
+    padding: 0 2px;
+
+    -webkit-transition: all 400ms ease;
+       -moz-transition: all 400ms ease;
+       -ms-transition: all 400ms ease;
+       transition: all 400ms ease;
+    
+    -webkit-transform-origin: 50% 0%;
+       -moz-transform-origin: 50% 0%;
+       -ms-transform-origin: 50% 0%;
+       transform-origin: 50% 0%;
+    
+    -webkit-transform-style: preserve-3d;
+       -moz-transform-style: preserve-3d;
+       -ms-transform-style: preserve-3d;
+       transform-style: preserve-3d;
+}
+.roll-link:hover span {
+        background: #0082c9;
+         
+
+        -webkit-transform: translate3d( 0px, 0px, -30px ) rotateX( 90deg );
+           -moz-transform: translate3d( 0px, 0px, -30px ) rotateX( 90deg );
+           -ms-transform: translate3d( 0px, 0px, -30px ) rotateX( 90deg );
+           transform: translate3d( 0px, 0px, -30px ) rotateX( 90deg );
+}
+
+.roll-link span:after {
+    content: attr(data-title);
+
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0 2px;
+
+    color: #fff;
+    background: #0082c9;
+
+    -webkit-transform-origin: 50% 0%;
+       -moz-transform-origin: 50% 0%;
+       -ms-transform-origin: 50% 0%;
+       transform-origin: 50% 0%;
+
+    -webkit-transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
+       -moz-transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
+       -ms-transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
+       transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
+}
+
+/* ROLL LINKS */
+.roll-link2 {
+    -webkit-perspective: 600px;
+       -moz-perspective: 600px;
+       -ms-perspective: 600px;
+       perspective: 600px;
+
+    -webkit-perspective-origin: 50% 50%;
+       -moz-perspective-origin: 50% 50%;
+       -ms-perspective-origin: 50% 50%;
+       perspective-origin: 50% 50%;
+       
+}
+
+.roll-link2:hover {text-decoration:none;}
+
+.roll-link2 p {
+
+    -webkit-transition: all 400ms ease;
+       -moz-transition: all 400ms ease;
+       -ms-transition: all 400ms ease;
+       transition: all 400ms ease;
+    
+    -webkit-transform-origin: 50% 0%;
+       -moz-transform-origin: 50% 0%;
+       -ms-transform-origin: 50% 0%;
+       transform-origin: 50% 0%;
+    
+    -webkit-transform-style: preserve-3d;
+       -moz-transform-style: preserve-3d;
+       -ms-transform-style: preserve-3d;
+       transform-style: preserve-3d;
+}
+.roll-link2:hover p {
+        background: #0082c9;
+         
+
+        -webkit-transform: translate3d( 0px, 0px, -30px ) rotateX( 90deg );
+           -moz-transform: translate3d( 0px, 0px, -30px ) rotateX( 90deg );
+           -ms-transform: translate3d( 0px, 0px, -30px ) rotateX( 90deg );
+           transform: translate3d( 0px, 0px, -30px ) rotateX( 90deg );
+}
+
+.roll-link2 p:after {
+    content: attr(data-title);
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0 2px;
+    color: #fff;
+    background: #0082c9;
+
+    -webkit-transform-origin: 50% 0%;
+       -moz-transform-origin: 50% 0%;
+       -ms-transform-origin: 50% 0%;
+       transform-origin: 50% 0%;
+
+    -webkit-transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
+       -moz-transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
+       -ms-transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
+       transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#seccion1{
+max-width: 90%;
+margin: 30px auto;
+}
+
+#seccion1 h1{
+  font: 30pt 'Yanone Kaffeesatz', sans-serif; color:#2b2b2b;
+}
+
+#logo-mobile{
+    margin:0 15px;
+    margin-top:-10px;
+    padding-right: 15px;
+    border-right: 1px solid #ccc;
+}
+
+#seccion1 h1 span{
+    overflow: none;
+    color:#0097e9;
+}
+
+#seccion2, #seccion3, #seccion4{
+    position: relative;
+    max-width:90%;
+    margin: 30px auto;
+    border-top: 1px solid #ccc;
+}
+.separador{
+    position: absolute;
+    margin-left:50%;
+    left:-12px;
+    top:-11px;
+}
+#seccion1.title{
+    margin-top:15px;
+}
+.title h1{
+position: absolute;
+left:5px;
+top:15px;
+font: 20pt 'Marvel', sans-serif; color:#0097e9;
+}
+
+.labtitle h1{
+position: absolute;
+right:5px;
+top:15px;
+  font: 20pt 'Marvel', sans-serif; color:#ee5400;
+}
+.labtitle img{
+    margin-top:-7px;
+    margin-right:5px;
+}
+
+.lista{
+    width: 260px;
+    height: 420px;
+}
+
+/*SLIDER*/
+.sliderimg{
+    max-width:163px;
+    margin:0 auto;
+}
+.lista h2{
+    text-align: center;
+    font: 24pt 'Marvel', sans-serif; color:#0097e9;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.lista ul{
+    border-top: 1px dashed #0097e9;
+    border-bottom: 1px dashed #0097e9;
+ padding-top: 15px;
+ padding-bottom: 15px;
+    width:180px;
+    margin:0 auto;
+    padding-left: 40px;
+    list-style-image: url(../img/list.png);
+}
+.lista ul li a{
+      font: 22pt 'Yanone Kaffeesatz', sans-serif; color:#333;
+}
+
+
+#portafolio{ 
+    margin-top: 80px;
+}
+#portafolio li{
+    position: relative;
+    width: 90%;
+   
+    margin:30px auto;
+    padding:6px;
+    background: #fff;
+    border:1px #ccc solid;
+}
+#portafolio li img{
+width: 100%;
+}
+#overlay{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+
+    opacity: 0;
+    background: url(../img/overlay.png);
+ -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+}
+#overlay:hover{
+    opacity: 1;
+}
+#overlay h2{
+    font: 20pt 'Marvel', sans-serif; color:#fff;
+    margin-top:5px;
+    margin-left:5px;
+}
+#overlay p{
+    font: 16pt 'Marvel', sans-serif; color:#fff;
+    margin-left:5px;
+}
+#overlay a{
+    font: 12pt 'Marvel', sans-serif; color:#fff;
+    position: absolute;
+    bottom: 5px;
+    right:5px;
+    opacity: 0.6;
+}
+
+#seccion4{
+    padding-bottom: 5px;
+}
+#form{ 
+
+
+width:100%;
+min-height: 426px;
+max-height: 426px;
+max-width: 300px;
+margin: 80px auto;
+height: 450px;
+position: relative;
+border: 1px solid #ccc;
+
+}
+
+form, input, textarea{
+    padding: 0;
+    margin:0;
+}
+#response
+{
+    display: none;
+    width:100%;
+    vertical-align: middle;
+    position: absolute;
+    font: 16pt 'Yanone Kaffeesatz', sans-serif; color:#666;
+    font-weight: 200;
+    bottom:250px;
+    text-align: center;
+}
+form h2{
+    font: 20pt 'Marvel', sans-serif; color:#999;
+
+margin-top: 10px;
+margin-left:15px;
+margin-bottom:-20px;
+}
+
+#inputs{
+margin:30px;
+margin-right: 50px;
+position: relative;
+
+}
+
+#username,#email,#message,#submit
+{
+    -webkit-appearance: none;
+    font-family: 'Marvel', sans-serif;
+    font-size: 14pt;
+    color:#999;
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:22px;
+    outline: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+}
+
+#message
+{
+    resize:none;
+}
+#submit{
+    border: none;
+    color:#FFF;
+    margin:0;
+    margin-left:10px;
+    background: #0097e9;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+#submit:hover
+{
+    
+    background: #0071ab;
+}
+
+#response
+{
+    display: none;
+    width:100%;
+    vertical-align: middle;
+    position: absolute;
+    font: 16pt 'Yanone Kaffeesatz', sans-serif; color:#666;
+    font-weight: 200;
+    bottom:250px;
+    text-align: center;
+}
+
+
+#content h2, #content-alt h2{
+         font: 24pt 'Marvel', sans-serif; color:#0097e9;
+         text-align: center;
+         padding: 5px;
+         border-top: 1px dashed #0097e9;
+         border-bottom: 1px dashed #0097e9;
+}
+#content p, #content-alt p{
+    font: 20pt 'Marvel', sans-serif; color:#666;
+    padding: 10px;
+}
+#content a, #content-alt a{
+       font: 16pt 'Marvel', sans-serif; color:#ee5400;
+       text-decoration: none;
+       padding: 5px;
+       width:150px;
+       text-align: center;
+       margin: 10px auto;
+ 
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+#content a:hover, #content-alt a:hover{
+       width: 180px;
+}
+.desktop{
+    display: none;
+}
+#social{
+    position: relative;
+    z-index: 3;
+    width: 90%;
+    margin: 0 auto;
+    margin-top:-40px;
+}
+#social ul{
+    max-width: 260px;
+    margin: 0 auto;
+}
+#social ul li{
+       display: inline-block;
+       width: 48px;
+       margin: 0 auto;
+}
+#social ul li img{
+       width: 48px;
+}
+
+#spikes{
+    position: absolute;
+    bottom: -31px;
+    right: 5%;
+    z-index: 1;
+    height: 100px;
+    width: 200px;
+    background: url(../img/footer-spikes.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom right;
+}
+
+#footer{
+    width: 100%;
+    background: #0097e9;
+    height: 60px;
+}
+
+#footer p{
+    padding-top: 25px;
+    text-align: center;
+    font: 10pt 'Marvel', sans-serif; color:#fff;
+}
+
+#seccion4 #social-links{
+    position: relative;
+    z-index: 100;
+    max-width: 300px;
+    margin: 40px auto;
+}
+
+#seccion4 #social-links h2{
+    padding: 0;
+    margin: 0;
+    color:#0097e9;;
+    text-align: left;
+    font:14pt 'Marvel', sans-serif;
+    text-transform: uppercase;
+}
+
+#seccion4 #social-links li{
+padding: 10px 0;
+border-bottom: dashed 1px #0097e9;;
+}
+
+#seccion4 #social-links #first-item{
+padding-top:0;
+}
+
+#seccion4 #social-links a{
+text-decoration: none;
+}
+
+#seccion4 #social-links a p{
+    opacity: 0.8;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    color: #333;
+    text-align: center;
+    font:14pt 'Marvel', sans-serif;
+}
+
+#seccion4 #social-links a{
+    margin: 5px auto;
+    margin-left:10px;
+    text-decoration: none;
+    color: #333;
+    font:14pt 'Marvel', sans-serif;
+}
+
+.twitter-follow-button{
+    margin-top: 7px;
+}
+
+
+#servicios{display: none;}
+.flexslider{display: block;}
+
+#content{
+
+ width:90%; 
+   margin:80px auto;
+   height: 420px;
+    display: none;}
+
+/*
+#servicios{
+    margin:80px auto;
+    list-style: none;
+    position: relative;
+}
+#servicios li{
+    float: left;
+    width: 33.33%;
+}
+#servicios h1{
+    margin: 15px 0;
+    margin-top:18px;
+    text-align: center;
+    font: 30pt 'Marvel', sans-serif; color:#0097e9;
+    text-transform: uppercase;
+}
+#servicios .srvimg{
+    margin: 0 auto;
+    width: 196px;
+}
+#servicios .srvinf{
+    text-align: center;
+     color: #333;
+    
+    font:22px 'Marvel', sans-serif;
+}
+#servicios .srvinf p{
+    margin: 10px auto;
+    width: 70%;
+}
+#servicios .srvbtn p{
+    font: 12pt 'Lato', sans-serif; color:#FFF;
+    padding: 6px 8px;
+    padding-bottom: 7px;
+    text-align: center;
+    border-radius: 4px;
+    background: #0097e9;
+    border-bottom: 4px solid #0e406b;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+    
+#servicios .srvbtn a{
+    text-decoration: none;
+}
+
+#servicios .srvbtn{
+       -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+    width: 120px;
+    margin: 20px auto;
+    text-decoration: none;
+}
+#servicios .srvbtn:hover{
+
+}
+#servicios .srvbtn:hover p{ 
+    background: #0072bc;
+}
+*/
+
+
+
+
+
+
+/*Desktop Display*/
+@media only screen and (min-width: 720px) {
+
+
+#work{
+  width: 700px;
+}
+#work ul{
+  width: 700px;
+  max-width: 700px;
+}
+#work ul li{
+  width: 350px;
+}
+#work ul li .overlay{
+  width: 350px;
+  height: 180px;
+  position: absolute;
+  top:0px;
+  left:0px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s  ease-in-out;
+  -o-transition: all 0.3s  ease-in-out;
+  transition: all 0.3s  ease-in-out;
+}
+
+
+#work .overlay{
+  display: block;
+  opacity: 0;
+  color:#0071AB;
+}
+
+#work .overlay .bg{
+  width: 100%;
+  height: 100%;
+  background: #FFF;
+  opacity: 0.8;
+}
+
+#work .overlay h2{
+  position: absolute;
+  font: 14pt 'Lato', sans-serif; color:#0071AB; 
+  font-weight: 700;
+  top:20px;
+  left: 20px;
+    opacity: 0.8;
+  text-align: center;
+ }
+#work .overlay p{
+  position: absolute;
+  background: #0071AB;
+  font: 10pt 'Lato', sans-serif; color:#fff; 
+  top:60px;
+  padding: 20px 20px;
+  margin-right:0px;
+  left: 00px;
+  text-align: center;
+  opacity: 0.8;
+ }
+#work .overlay .button{
+  padding: 8px 12px;
+  border-radius: 0 0 4px 4px;
+  padding-top:2px;
+  padding-bottom:5px;
+  position: absolute;
+  bottom: 24px;
+  font: 9.5pt 'Lato', sans-serif; 
+  font-weight: 700;
+  background:#0071AB;
+  color:#FFF;
+  left:115px;
+  opacity: 0.8;
+}
+
+#work .overlay .button img{
+
+ margin-right: 4px;
+ margin-top:-2px;
+}
+
+
+#work .overlay a{
+  text-decoration: none;
+  
+}
+
+#work ul li:hover .overlay{
+opacity: 1;
+}
+
+
+
+@media only screen and (min-width: 1100px) {
+
+
+#work{
+  width: 1050px;
+}
+#work ul{
+  width: 1050px;
+  max-width: 1050px;
+}
+  }
+
+
+
+
+
+
+
+/*Desktop Display*/
+@media only screen and (min-width: 780px) {
+
+
+#servicios{display: block;}
+#content{display: none;}
+.mobile{
+    display:none;
+}
+.flexslider{display: none;}
+    #logo-mobile{display: none;}
+    .desktop{
+        display: block;
+    }
+
+#top{
+    font: 12pt 'Marvel', sans-serif; color:#fff;
+    position: absolute;
+    right:15%;
+    top:0;
+    background: #0097e9;
+    padding: 6px 4px;
+    color:#FFF;
+    border-radius: 0 0 3px 3px;
+}
+#lang-es{
+border-bottom:2px #fff solid;
+}
+
+#top a{font: 12pt 'Marvel', sans-serif; color:#fff;
+text-decoration: none;
+padding-left: 7px;
+padding-right:7px;
+ -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+   transition: all 0.1s ease;
+}
+
+#top a:hover{
+    opacity: 0.7;
+}
+#header{position: relative;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+
+margin-bottom: 30px;}
+#header img{
+    position: relative;
+    left:0px;
+}
+#header ul{
+    position: absolute;
+    right: 0px;
+    top:20px;
+}
+#header ul li{
+    display: inline-block;
+    width: auto;
+     margin-left: 20px;
+}
+#header ul li a{
+    text-decoration: none;
+    font: 18pt 'Marvel', sans-serif; color:#0097e9;
+    text-transform: uppercase;
+}
+
+#header .separador{
+    position: absolute;
+    margin-left:50%;
+    left:-12px;
+    top: auto;
+    bottom:-11px;
+}
+
+#seccion1 h1{
+    margin:80px auto;
+    font-size: 34pt;
+}
+#header .title h1{
+position: absolute;
+left:5px;
+top:55px;
+font: 20pt 'Marvel', sans-serif; color:#0097e9;
+}
+
+
+
+
+/*************************************/
+/*********** SERVICIOS ***************/
+/*************************************/
+
+
+
+#servicios{
+    margin:80px auto;
+    list-style: none;
+    position: relative;
+}
+#servicios li{
+    float: left;
+    width: 33.33%;
+}
+#servicios h1{
+    margin: 15px 0;
+    margin-top:18px;
+    text-align: center;
+    font: 30pt 'Marvel', sans-serif; color:#0097e9;
+    text-transform: uppercase;
+}
+#servicios .srvimg{
+    margin: 0 auto;
+    width: 196px;
+}
+#servicios .srvinf{
+    text-align: center;
+     color: #333;
+    
+    font:22px 'Marvel', sans-serif;
+}
+#servicios .srvinf p{
+    margin: 10px auto;
+    width: 70%;
+}
+#servicios .srvbtn p{
+    font: 12pt 'Lato', sans-serif; color:#FFF;
+    padding: 6px 8px;
+    padding-bottom: 7px;
+    text-align: center;
+    border-radius: 4px;
+    background: #0097e9;
+    border-bottom: 4px solid #0e406b;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+    
+#servicios .srvbtn a{
+    text-decoration: none;
+}
+
+#servicios .srvbtn{
+       -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+    width: 120px;
+    margin: 20px auto;
+    text-decoration: none;
+}
+#servicios .srvbtn:hover{
+
+}
+#servicios .srvbtn:hover p{ 
+    background: #0072bc;
+}
+
+
+#spikes{
+    position: absolute;
+    bottom: -70px;
+    right: 5%;
+    height: 200px;
+    width: 450px;
+    background: url(../img/footer-spikes.png) no-repeat;
+
+    background-position: bottom right;
+}
+
+#footer{
+    width: 100%;
+    background: #0097e9;
+    height: 40px;
+}
+#footer p{
+    padding-top: 12px;
+    text-align: center;
+    font: 12pt 'Marvel', sans-serif; color:#fff;
+}
+
+#portafolio li{
+    position: relative;
+    width: 80%;
+}
+
+#seccion4 .content{
+    position: relative;
+    max-width: 960px;
+    margin: 70px auto;
+    overflow: auto;
+}
+
+#seccion4 #col1{
+    width: 40%;
+    float: left;
+
+}
+#seccion4 #col2{
+    border-left:dashed 1px #0097e9;;
+    width: 50%;
+    height: 450px;
+    float: right;
+}
+#seccion4 #social-links{
+    max-width: 300px;
+    margin: 40px auto;
+}
+#seccion4 #social-links h2{
+    padding: 0;
+    margin: 0;
+    color:#0097e9;;
+    text-align: left;
+    font:14pt 'Marvel', sans-serif;
+    text-transform: uppercase;
+}
+#seccion4 #social-links li{
+padding: 10px 0;
+
+    border-bottom: dashed 1px #0097e9;;
+
+}
+#seccion4 #social-links #first-item{
+padding-top:0;
+}
+#seccion4 #social-links a{
+
+text-decoration: none;
+
+}
+#seccion4 #social-links a p{
+    opacity: 0.8;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    color: #333;
+    text-align: center;
+    
+    font:14pt 'Marvel', sans-serif;
+}
+#seccion4 #social-links a:hover p{
+    opacity: 1;
+}
+
+#form{ 
+
+
+width:100%;
+max-width: 100%;
+height: auto;
+position: relative;
+padding:0;
+margin: 0;
+}
+
+form, input, textarea{
+    padding: 0;
+    margin:0;
+}
+
+
+#inputs{
+position: relative;
+}
+
+#username,#email,#message,#submit-wrapper
+{
+    -webkit-appearance: none;
+    font-family: 'Marvel', sans-serif;
+    font-size: 14pt;
+ 
+    width: 100%;
+    margin-left:auto;
+    background: #F4F4F4;
+    margin-right:auto;
+    margin-bottom:22px;
+    outline: 0;
+    padding: 10px;
+    border: none;
+    color:#333;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+
+}
+
+
+#social{
+  width: 270px;
+  min-width: 270px;
+  margin: 0 auto;
+  position: relative;
+}
+#social ul{
+    max-width: none;
+}
+#social ul li img{
+    width: 50px;
+    opacity: 0;    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+#social ul li:hover img{
+    opacity: 1;
+
+}
+
+#social ul li{
+    padding: 0;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+       -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+#social ul li:hover{
+
+}
+#twitter{
+    background: url(../img/social-t.png);
+    background-size: 100%;
+}
+#facebook{
+    background: url(../img/social-f.png);
+     background-size: 100%;
+}
+#dribbble{
+    background: url(../img/social-d.png); background-size: 100%;
+}
+#instagram{
+    background: url(../img/social-i.png); background-size: 100%;
+}
+#pinterest{
+    background: url(../img/social-p.png); background-size: 100%;
+}
+#seccion4{
+    padding-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}/*
+#form{ 
+
+
+width:100%;
+max-width: 300px;
+margin: 80px auto;
+height: 450px;
+position: relative;
+border: 1px solid #ccc;
+
+}
